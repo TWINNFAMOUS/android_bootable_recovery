@@ -442,7 +442,8 @@ sp<IBinder> getKeystoreBinderRetry() {
 namespace keystore {
 
 #define SYNTHETIC_PASSWORD_VERSION_V1 1
-#define SYNTHETIC_PASSWORD_VERSION 2
+#define SYNTHETIC_PASSWORD_VERSION_V2 2
+#define SYNTHETIC_PASSWORD_VERSION_V3 3
 #define SYNTHETIC_PASSWORD_PASSWORD_BASED 0
 #define SYNTHETIC_PASSWORD_KEY_PREFIX "USRSKEY_synthetic_password_"
 #define USR_PRIVATE_KEY_PREFIX "USRPKEY_synthetic_password_"
